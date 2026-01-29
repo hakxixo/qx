@@ -8,7 +8,7 @@
  *******************************
 [rewrite_local]
 # > 爱加速VPN节点提取
-^https?:\/\/api\.91ajs\.com\/(v1\/server|server\/list|server\/list\?.*)$ url script-response-body aijiasu_extract.js
+^https?:\/\/api\.91ajs\.com\/(v1\/server|server\/list|server\/list\?.*)$ url script-response-body https://github.com/hakxixo/qx/blob/main/xmnnnnnnly.js
 
 [mitm]
 hostname = api.91ajs.com
